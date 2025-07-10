@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #19a1ae;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+/* ## Colors
+
+Dark cyan: hsl(185, 75%, 39%)
+Very dark desaturated blue: hsl(229, 23%, 23%)
+Dark grayish blue: hsl(227, 10%, 46%)
+Dark gray: hsl(0, 0%, 59%)
+*/
+
+.kumbh-sans-font {
+  font-family: "Kumbh Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "YOPQ" 300;
+}
+
+.text-1 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: auto;
+  letter-spacing: 0px;
+  color: #2e3349;
+}
+.text-number {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: auto;
+  letter-spacing: 0px;
+  color: #6b7082;
+}
+.text-location {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: auto;
+  letter-spacing: 0px;
+  color: #6b7082;
+}
+.text-stat {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: auto;
+  letter-spacing: 0px;
+  color: #2e3349;
+}
+.text-sub {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: auto;
+  letter-spacing: 1.5px;
+  color: #6b7082;
+}
+
+.main-container {
+  width: 350px;
+  height: 374px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.5);
+  z-index: 10;
+}
+
+.pattern {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  margin-top: -48px;
+  padding-bottom: 1.5rem;
+}
+
+.profile-img {
+  height: 96px;
+  width: 96px;
+  border-radius: 100%;
+  border: 5px solid white;
+}
+
+.stats-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.5rem 3rem;
+  border-top: 1px solid #e8e9ec;
+}
+
+.main-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.bg-top {
+  position: absolute;
+  overflow: hidden;
+  right: 50%;
+  top: -50%;
+  opacity: 0.75;
+}
+.bg-bottom {
+  position: absolute;
+  overflow: hidden;
+  left: 60%;
+  top: 50%;
+  opacity: 0.25;
+}
